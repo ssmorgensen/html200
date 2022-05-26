@@ -7,7 +7,7 @@ let drivingStatus = firstName + ' ' + lastName + ' ' +  x + ' ' + (currentAge - 
 for (let y = 5; y >= 0; y--)
 
 if (currentAge - drivingAge >=0) {
-  console.log (drivingStatus);
+  console.log (`${firstName} ${lastName} can drive` + ' ' + (currentAge - drivingAge));
 } else {
   console.log (y);
 }
